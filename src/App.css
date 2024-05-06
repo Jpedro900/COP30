@@ -4,97 +4,9 @@
     width: 100%;
 }
 
-header{
-    background-color: #204185;;
-    color: white;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-header h1{
-    font-size: 1.5rem;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 50px;
-}
-
-nav ul li{
-    margin-right: 10px;
-}
-
-nav ul li a{
-    position: relative;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
-
-nav ul li a:after{
-    content: "";
-    position: absolute;
-    background-color: white;
-    height: 3px;
-    width: 0%;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
-}
-
-nav ul li a:hover:after{
-    width: 100%;
-}
 
 
-img{
-    width: 55px;
-    height: 55px;
-}
 
-#sobre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    height: 70vh;
-    background: rgb(214,0,0);
-    background: linear-gradient(17deg, rgba(214,0,0,1) 0%, rgba(255,255,255,1) 38%, rgba(245,245,245,1) 48%, rgba(0,69,139,1) 55%, rgba(255,255,255,1) 64%, rgba(240,240,240,1) 75%, rgba(214,0,0,1) 100%);
-    padding: 20px;
-    color: black;
-    letter-spacing: 5px;
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.5rem;
-}
 
-#sobre .container-title{
-    background-color: #204185;
-    width: 200px;
-    height: 80px;
-    color: white;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-}
 
-#sobre .container-sub-title{
-    background-color: #204185;
-    width: 650px;
-    height: 60px;
-    color: white;
-    font-size: 2rem;
-    padding: 6px;
-}
-
-footer{
-    background-color: white;
-    color: #204185;
-}
 
