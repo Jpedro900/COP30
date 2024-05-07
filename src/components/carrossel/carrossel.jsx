@@ -1,4 +1,3 @@
-
 import { Carousel } from "flowbite-react";
 
 export function Component() {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './sobre.css';
 
 export default class  extends Component {
   render() {

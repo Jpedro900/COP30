@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Header from './components/header/header';
 import Sobre from './components/sobre/sobre';
 import Agenda from './components/agenda/agenda';

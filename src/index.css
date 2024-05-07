@@ -1,11 +1,12 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body{
-  font-family: 'Roboto', sans-serif;
-  background-color: white;
-  width: 100vw;
+@layer components {
+  .listItem {
+    @apply self-center text-xl uppercase;
+  }
+  .listContent{
+    @apply relative after:content-[""] after:absolute after:bottom-[-5px] after:left-0 after:bg-white after:h-[3px] after:transition-all after:duration-300 after:w-0 hover:after:w-full;
+  }
 }
