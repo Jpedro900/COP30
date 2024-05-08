@@ -15,7 +15,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:
+      {
+        'Header': ['Anton'],
+        'Body': ['Spectral']
+      }
+    },
   },
   plugins: [],
 }

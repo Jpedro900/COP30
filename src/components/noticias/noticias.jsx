@@ -5,8 +5,8 @@ export default class noticias extends Component {
     return (
         <section id="noticias">
             <div className="container">
-                <h2>Notícias e Atualizações</h2>
-                <p>Fique por dentro das últimas notícias e atualizações relacionadas à COP30 e às questões climáticas globais.</p>
+                <h2>Notícias</h2>
+                <p>Fique por dentro das últimas notícias relacionadas à COP30 e às questões climáticas globais.</p>
             </div>
         </section>
     )

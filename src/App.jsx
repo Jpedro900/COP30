@@ -6,7 +6,7 @@ import Main from './components/main/main'
 
 export default function App() {
   return (
-    <div className="App">
+    <div className=' overflow-x-hidden'>
       <Header />
       <Main />
       <Formulario />
