@@ -19,7 +19,8 @@ export default {
       fontFamily:
       {
         'Header': ['Anton'],
-        'Body': ['Spectral']
+        'Body': ['Spectral'],
+        'Poppins': ['Poppins']
       }
     },
   },
