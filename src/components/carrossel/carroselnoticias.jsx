@@ -18,7 +18,7 @@ function Carousel() {
   };
 
   return (
-    <Slider {...settings} className=' bg-slate-400 mb-2 mx-auto bg-transparent'>
+    <Slider {...settings} className=' mb-6 mx-auto bg-transparent'>
       <div className=' px-10'>
         <h1 className=' font-Header text-3xl text-justify'>
             Novo PAC chega ao Pará e intensifica investimentos para a COP-30

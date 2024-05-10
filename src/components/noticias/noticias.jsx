@@ -9,7 +9,7 @@ export default class noticias extends Component {
             <h2 className=' text-5xl font-Header tracking-wider uppercase mb-2'>Notícias</h2>
             <p className=' font-Poppins text-2xl'>Fique por dentro das últimas notícias relacionadas à COP30 e às questões climáticas globais.</p>
           </div>
-          <div className=' w-[75%] mx-auto'>
+          <div className=' w-[90%] mx-auto'>
             <Carousel/>
           </div>
         </section>

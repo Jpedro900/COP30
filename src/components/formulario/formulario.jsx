@@ -12,7 +12,7 @@ const FormularioSugestaoReclamacao = () => {
   };
 
   return (
-    <div className=" self-center w-[400px] h-[450px] p-6 bg-white shadow-md rounded-md">
+    <div className=" self-center w-[300px] h-[450px] p-6 bg-white shadow-md rounded-md sm:w=[350px] lg:w-[400px]">
       <h2 className="text-lg font-semibold mb-4">Deixe sua sugestão ou reclamação</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">

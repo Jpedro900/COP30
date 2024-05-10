@@ -5,7 +5,7 @@ import Main from './components/main/main'
 
 export default function App() {
   return (
-    <div className=' overflow-x-hidden'>
+    <div className=' overflow-hidden'>
       <Header />
       <Main />
       <Footer />
