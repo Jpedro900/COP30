@@ -3,6 +3,7 @@ import Destaquenoticias from '../destaquesnoticias/destaquenoticias'
 
 export default class noticiasmob extends Component {
   render() {
+
     return (
         <section id='noticias'>
             <div className=' text-center bg-gray-200 p-6 mb-6'>
